@@ -1,0 +1,74 @@
+body {
+	margin: 0;
+  
+}
+
+.container {  display: grid;
+    grid-template-rows: 0.3fr 2.2fr 0.5fr;
+    grid-auto-columns: 1fr;
+    gap: 0px 30px;
+    grid-auto-flow: row;
+  }
+  
+  .header { grid-area: 1 / 1 / 2 / 2; }
+  
+  .continut { grid-area: 2 / 1 / 3 / 2; }
+  
+  .footer { grid-area: 3 / 1 / 4 / 2; }
+  
+
+.header{
+   background-color:rgb(24, 31, 76) ;
+   color: white;
+   display: flex;
+   justify-content: space-around;
+}
+
+
+.footer{
+   background-color:rgb(24, 31, 76) ;
+   color: white;
+   display: flex;
+   justify-content: space-evenly;
+   padding-bottom: 70px;
+  }
+
+
+.options{
+  padding-top: 25px;
+  color: white;
+  /* nu se schimba culoarea */
+}
+
+.img{
+  width: 120px;
+  /* nu se schimba marimea */
+}
+
+
+.h1{
+  padding-left: 300px;
+}
+
+.h2{
+  padding-left: 300px;
+}
+
+.curs1{
+  display: flex;
+  flex-direction: column;
+  height: 0px;
+  padding-left: 300px; 
+  text-decoration:underline chocolate 5px;
+    
+}
+
+.curs2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 700px;
+  padding-left: 300px; 
+  text-decoration: underline chocolate 5px; 
+  /* nici aici din pacate nu pot da de capat cum sa fac sublinierea */
+} 
